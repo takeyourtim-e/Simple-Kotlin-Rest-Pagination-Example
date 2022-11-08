@@ -15,6 +15,6 @@ curl --location --request POST 'http://localhost:8080/employees' --header 'Conte
 }'
 
 ### Curl Command for getting pageable employees
-curl --location --request GET 'http://localhost:8080/employees?page=1&size3' --header 'Content-Type: application/json' --data-raw 
+curl GET 'http://localhost:8080/employeespageable?size=6&page=0' 
 or
-curl 'http://localhost:8080/employees?page=1&size3'
+curl 'http://localhost:8080/employeespageable?size=6&page=0'
